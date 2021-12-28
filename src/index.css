@@ -15,3 +15,8 @@ body {
 .content {
   margin-left: 200px;
 }
+
+
+a {
+  all: unset;
+}

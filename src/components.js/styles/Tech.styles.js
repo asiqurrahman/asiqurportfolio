@@ -30,6 +30,12 @@ export const StyledTec = styled.div `
         border-radius: 20px;
         align-items: center;
         margin-bottom: 50px;
+        max-width: 1400px;
+
+    }
+
+    .techimage {
+        display: flex;
     }
 
     .tech img {
@@ -103,5 +109,9 @@ export const StyledTec = styled.div `
         background-color: white;
         width: fit-content;
         border-radius: 80px;
+    }
+
+    .postman {
+        border: 1px solid #ef5b25;
     }
 `

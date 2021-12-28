@@ -59,16 +59,11 @@ export const StyledNav = styled.div `
     }
 
     .icon {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: .8em;
-        transition-duration: 1s;
         background-color: whitesmoke;
-        padding: 5px;
+        padding: 3px;
         border-radius: 10px;
         color: black;
     }
+
 `
 

@@ -15,7 +15,12 @@ const Nav = () => {
                         <Link to="technologies" style={{ textDecoration: 'none' }}>
                             <p>How I do It</p>
                         </Link>
-                        <p>What Have I done</p>
+                        <Link to="projects" style={{ textDecoration: 'none' }}>
+                            <p>What Have I done</p>
+                        </Link>
+                        <Link to="contact" style={{ textDecoration: 'none' }}>
+                        <p>Hire Me</p>
+                        </Link>
                     </div>
                     <div className="navsocials">
                         <h2>Socials</h2>
