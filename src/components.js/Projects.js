@@ -8,8 +8,14 @@ import { motion } from "framer-motion"
 const Projects = () => {
 
     const alert = () => {
-        window.alert('This is a private repository. Please contact me for access to the repository. ')
+        window.alert('This is a private repository. Please contact me for access to the repository.')
     }
+
+    const alreadyonsite = () => {
+        window.alert('You are already on the site. Keep exploring :)')
+    }
+
+
     return (
         <StyledProjects>
             <div className="title">
@@ -44,13 +50,13 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="item sources">
-                        <div className="live">
-                            <a href="https://www.zavixs.com/" target="_blank">
-                                <p>Live Site</p>
-                            </a>
+                        <div className="live" onClick={alreadyonsite}>
+                            <p>Live Site</p>
                         </div>
                         <div className="live git">
-                            <p>Code</p>
+                            <a href="https://github.com/asiqurrahman/asiqurportfolio" target="_blank">
+                                <p>Code</p>
+                            </a>
                         </div>
                     </div>
                 </motion.div>
@@ -89,7 +95,7 @@ const Projects = () => {
                                 <p>Live Site</p>
                             </a>
                         </div>
-                        <div className="live git">
+                        <div className="live git" onClick={alert}>
                             <p>Code</p>
                         </div>
                     </div>
@@ -137,7 +143,14 @@ const Projects = () => {
                             </a>
                         </div>
                         <div className="live git">
-                            <p>Code</p>
+                            <a href="https://github.com/asiqurrahman/nexttradingwebsite" target="_blank">
+                            <p>Frontend</p>
+                            </a>
+                        </div>
+                        <div className="live git">
+                            <a href="https://github.com/asiqurrahman/swapbackend" target="_blank">
+                                <p>Backend</p>
+                            </a>
                         </div>
                     </div>
                 </motion.div>
