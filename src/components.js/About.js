@@ -8,7 +8,7 @@ const About = () => {
             </div>
 
             <div className="description">
-                <p>A passionate web developer who designs builds and publishes products of quality and reliability.</p>
+                <p>A passionate web developer who designs, builds and publishes products of quality and reliability.</p>
                 <p>Constantly looking to improve and work on the next big thing</p>
                 <p className="unfunnyjoke">p.s. I can center your divs 4 different ways ;)</p>
             </div>
