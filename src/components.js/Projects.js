@@ -119,7 +119,7 @@ const Projects = () => {
                         <p>Swup is a peer to peer marketplace for swapping unwanted items for desired items. </p>
                         <br />
                         <br />
-                        <p className="wakeup">Please give the site some time to load. The backend is hosted on a free teir of heroku dyno and requires time to wake up.</p>
+                        <p className="wakeup">Please give the site some time to load. The backend is hosted on a free tier of heroku dyno and requires time to wake up.</p>
                     </div>
                     <div className="item">
                         <h2>Tech Stack</h2>
