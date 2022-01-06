@@ -11,7 +11,7 @@ Im **Asiqur Rahman**, a Full stack web developer from New York City. I design, b
 This website showcases my skills and projects. Built with:
 - React.js
 - react-router-dom
-- styled-somponents
-- framer motion. 
+- styled-components
+- framer-motion. 
 
 You can view the **live site** at https://asiqurportfolio.vercel.app/
