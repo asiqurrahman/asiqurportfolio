@@ -13,3 +13,5 @@ This website showcases my skills and projects. Built with:
 - react-router-dom
 - styled-somponents
 - framer motion. 
+
+You can view the **live site** at https://asiqurportfolio.vercel.app/
