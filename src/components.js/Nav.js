@@ -2,8 +2,13 @@ import { StyledNav } from "./styles/Nav.styles"
 import github from '../images/github.png'
 import linkedin from '../images/linkedin.png'
 import {Link} from "react-router-dom";
+import React, { useState } from 'react';
 
 const Nav = () => {
+
+    const [closenav, setClosenav] = useState(true)
+
+
     return (
         <div>
             <StyledNav>
@@ -30,7 +35,7 @@ const Nav = () => {
                                     <img src={github} width="50px" height="50px"/>
                                 </a>
                             </div>
-                            <div className="icon">
+                            <div className="icon linkedin">
                                 <a href="https://www.linkedin.com/in/asiqur-rahman-3605a5143/" target="_blank">
                                     <img src={linkedin} width="50px" height="50px"/>
                                 </a>

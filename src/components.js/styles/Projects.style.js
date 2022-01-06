@@ -68,4 +68,8 @@ export const StyledProjects = styled.div `
     .git {
         background-color: #f5f5f5;
     }
+
+    .wakeup {
+        color: #cf352e;
+    }
 `

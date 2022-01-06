@@ -7,16 +7,15 @@ export const StyledNav = styled.div `
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #141A25;
     overflow-x: hidden;
-    padding-top: 20px;
-    
-    
+
     nav {
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        background-color: #141A25;
+        padding-top: 20px;
     }
 
     nav p:after {
@@ -63,6 +62,10 @@ export const StyledNav = styled.div `
         padding: 3px;
         border-radius: 10px;
         color: black;
+    }
+
+    .linkedin {
+        background-color: #141A25 !important;
     }
 
 `
