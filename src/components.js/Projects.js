@@ -127,6 +127,7 @@ const Projects = () => {
                             <h3>Next.Js</h3>
                             <h3>Redux</h3>
                             <h3>Styled Componenets</h3>
+                            <h3>Framer Motion</h3>
                             <h3>Django-Rest-Framework</h3>
                             <h3>JWT</h3>
                             <h3>AWS S3 Bucket</h3>
