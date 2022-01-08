@@ -41,6 +41,7 @@ export const StyledProjects = styled.div `
     .description {
         width: 350px;
     }
+    
 
     h2 {
         margin-bottom: 10px;

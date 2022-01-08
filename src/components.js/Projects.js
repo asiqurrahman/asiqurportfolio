@@ -38,9 +38,9 @@ const Projects = () => {
                     </div>
                     <div className="item description">
                         <h2>Description</h2>
-                        <p>A portfolio website showcasing my skills and projects</p>
+                        <p>A portfolio website showcasing my skills and projects.</p>
                     </div>
-                    <div className="item">
+                    <div className="item techstack">
                         <h2>Tech Stack</h2>
                         <div>
                             <h3>React.Js</h3>
@@ -78,7 +78,7 @@ const Projects = () => {
                         <h2>Description - JAM Stack</h2>
                         <p>Zavixs is a free tool that analyzes any website and displays data in a meaningful way. A way to see traffic data, ad revenue, worth of a website, and more.</p>
                     </div>
-                    <div className="item">
+                    <div className="item techstack">
                         <h2>Tech Stack</h2>
                         <div>
                             <h3>Next.Js</h3>
@@ -118,14 +118,18 @@ const Projects = () => {
                         <h2>Description - Full Stack</h2>
                         <p>Swup is a peer to peer marketplace for swapping unwanted items for desired items. </p>
                         <br />
+                        <p>Test Account</p>
+                        <br />
+                        <p>Email: testaccount@gmail.com</p>
+                        <p>Password: tabsoverspaces</p>
+                        <br />
                         <br />
                         <p className="wakeup">Please give the site some time to load. The backend is hosted on a free tier of heroku dyno and requires time to wake up.</p>
                     </div>
-                    <div className="item">
+                    <div className="item techstack">
                         <h2>Tech Stack</h2>
                         <div>
                             <h3>Next.Js</h3>
-                            <h3>Redux</h3>
                             <h3>Styled Componenets</h3>
                             <h3>Framer Motion</h3>
                             <h3>Django-Rest-Framework</h3>
