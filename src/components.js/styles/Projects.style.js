@@ -73,4 +73,20 @@ export const StyledProjects = styled.div `
     .wakeup {
         color: #cf352e;
     }
+
+    .descriptionitems {
+        display: flex;
+    }
+
+    @media (max-width: 1024px) {
+
+        .projectimage {
+            display: flex;
+            justify-content: center;
+        }
+
+        .project {
+            flex-direction: column;
+        }
+    }
 `
