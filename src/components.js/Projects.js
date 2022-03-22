@@ -149,7 +149,7 @@ const Projects = () => {
                         </div>
                         <div className="item sources">
                             <div className="live">
-                                <a href="https://www.zavixs.com/" target="_blank">
+                                <a href="https://nexttradingwebsite.vercel.app/" target="_blank">
                                     <p>Live Site</p>
                                 </a>
                             </div>
