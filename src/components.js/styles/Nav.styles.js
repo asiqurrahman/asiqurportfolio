@@ -46,6 +46,10 @@ export const StyledNav = styled.div `
         border-top: 1px solid #344454;
     }
 
+    img:hover{
+        cursor: pointer;
+    }
+
     .navsocials h2 {
         text-align: center;
     }

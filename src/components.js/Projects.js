@@ -2,6 +2,7 @@ import { StyledProjects } from "./styles/Projects.style"
 import zavixs from '../images/zavixs.png'
 import swup from '../images/swup.png'
 import portfolio from '../images/portfolio.png'
+import partny from '../images/partnyimage.png'
 import { motion } from "framer-motion"
 
 
@@ -23,15 +24,15 @@ const Projects = () => {
             </div>
             <div className="projectcontainer">
                 {/* Project One */}
-                 <motion.div className="project"
-                    initial={{opacity: 0, translateX: -300}} 
-                    animate={{opacity: 1, translateX: 0}} 
-                    transition={{duration: .5}}
-                 >
+                <motion.div className="project"
+                    initial={{ opacity: 0, translateX: -300 }}
+                    animate={{ opacity: 1, translateX: 0 }}
+                    transition={{ duration: .5 }}
+                >
                     <div className="projectimage">
                         <div className="item">
                             <div>
-                                <h2>Portfolio Website</h2>   
+                                <h2>Portfolio Website</h2>
                             </div>
                             <div>
                                 <img src={portfolio} />
@@ -66,14 +67,14 @@ const Projects = () => {
                 </motion.div>
                 {/* Project Two */}
                 <motion.div className="project"
-                    initial={{opacity: 0, translateX: -300}} 
-                    animate={{opacity: 1, translateX: 0}} 
-                    transition={{duration: .3, delay: .3}}
-                >   
+                    initial={{ opacity: 0, translateX: -300 }}
+                    animate={{ opacity: 1, translateX: 0 }}
+                    transition={{ duration: .3, delay: .3 }}
+                >
                     <div className="projectimage">
                         <div className="item">
                             <div>
-                                <h2>Zavixs</h2>   
+                                <h2>Zavixs</h2>
                             </div>
                             <div>
                                 <img src={zavixs} />
@@ -108,16 +109,59 @@ const Projects = () => {
                         </div>
                     </div>
                 </motion.div>
-                {/* Project Three */}
+                {/* Project three */}
                 <motion.div className="project"
-                    initial={{opacity: 0, translateX: -300}} 
-                    animate={{opacity: 1, translateX: 0}} 
-                    transition={{duration: .3, delay: .5}}
+                    initial={{ opacity: 0, translateX: -300 }}
+                    animate={{ opacity: 1, translateX: 0 }}
+                    transition={{ duration: .3, delay: .5 }}
                 >
                     <div className="projectimage">
                         <div className="item">
                             <div>
-                                <h2>Swup</h2>   
+                                <h2>Partny</h2>
+                            </div>
+                            <div>
+                                <img src={partny} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="descriptionitems">
+                        <div className="item description">
+                            <h2>Description - JAM Stack</h2>
+                            <p>Partny leverages the power of natural language processing and machine learning to improve your writing.</p>
+                        </div>
+                        <div className="item techstack">
+                            <h2>Tech Stack</h2>
+                            <div>
+                                <h3>Next.Js</h3>
+                                <h3>Styled Componenets</h3>
+                                <h3>Framer Motion</h3>
+                                <h3>OpenAI</h3>
+                                <h3>Vercel</h3>
+                            </div>
+                        </div>
+                        <div className="item sources">
+                            <div className="live">
+                                <a href="https://www.partnyai.com/" target="_blank">
+                                    <p>Live Site</p>
+                                </a>
+                            </div>
+                            <div className="live git" onClick={alert}>
+                                <p>Code</p>
+                            </div>
+                        </div>
+                    </div>
+                </motion.div>
+                {/* Project four */}
+                <motion.div className="project"
+                    initial={{ opacity: 0, translateX: -300 }}
+                    animate={{ opacity: 1, translateX: 0 }}
+                    transition={{ duration: .3, delay: .7 }}
+                >
+                    <div className="projectimage">
+                        <div className="item">
+                            <div>
+                                <h2>Swup</h2>
                             </div>
                             <div>
                                 <img src={swup} />
@@ -155,7 +199,7 @@ const Projects = () => {
                             </div>
                             <div className="live git">
                                 <a href="https://github.com/asiqurrahman/nexttradingwebsite" target="_blank">
-                                <p>Frontend</p>
+                                    <p>Frontend</p>
                                 </a>
                             </div>
                             <div className="live git">

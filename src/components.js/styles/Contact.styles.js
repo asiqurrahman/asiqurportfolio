@@ -24,7 +24,7 @@ export const StyledContact = styled.div `
     }
 
     input {
-        border-radius: 5px;
+        border-radius: 10px;
         height: 50px;
         width: 200px;
         padding-left: 5px;
@@ -58,6 +58,7 @@ export const StyledContact = styled.div `
     textarea {
         resize: none;
         font-size: 1.5em;
+        border-radius: 10px;
     }
 
 `
